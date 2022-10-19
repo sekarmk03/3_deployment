@@ -1,9 +1,9 @@
 require('dotenv').config();
 const {
-  DB_USERNAME,
-  DB_PASSWORD,
-  DB_DATABASE,
-  DB_HOST,
+  DB_USERNAME = "postgres",
+  DB_PASSWORD = "skrmk372",
+  DB_DATABASE = "coba_deploy",
+  DB_HOST = "localhost",
   DB_DIALECT = 'postgres'
 } = process.env;
 
