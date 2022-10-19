@@ -4,6 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const { User } = require('./models');
 const { uniqueNamesGenerator, adjectives, colors, animals } = require('unique-names-generator');
+const morgan = require('morgan');
 
 app.use(express.json());
 
